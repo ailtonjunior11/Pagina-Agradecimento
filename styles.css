@@ -9,7 +9,7 @@
 body {
 
     height: 100vh;
-    background-image: url(logo-desktop.jpeg);
+    background-image: url(img/logo-desktop.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ body {
 
     body {
 
-        background-image: url(logo-mobile.jpeg);
+        background-image: url(img/logo-mobile.jpeg);
     }
 
     .container {
