@@ -30,6 +30,7 @@ body {
 .texto {
 
    line-height: 15px;
+   margin: 20% auto;
 }
 
 .texto h1 {
@@ -45,23 +46,6 @@ body {
     color: #023882;
     text-shadow: 0px 0px 4px #023882;
     line-height: 40px;
-}
-
-.imagem figure img {
-
-    border-radius: 20px;
-    box-shadow: 15px 10px 20px #000000e0;
-}
-
-.imagem figure figcaption {
-
-    text-align: center;
-    margin-top: 6px;
-    background-color: #023882;
-    color: #fff;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: 400;
 }
 
 @media screen and (max-width: 900px) {
@@ -89,6 +73,7 @@ body {
 
         line-height: 10px;
         padding: 10px 4%;
+        margin: 70% auto;
      }
 
     .texto h1 {
@@ -102,22 +87,5 @@ body {
         font-size: 1.8em;
         line-height: 25px;
         text-shadow: 0px 0px 3px #023882;
-    }
-
-    .imagem figure img {
-
-        width: 100%;
-        height: 400px;
-        box-shadow: 10px 5px 20px #000000e0;
-    }
-
-
-    .imagem figure figcaption {
-
-        margin-top: 12px;
-        background-color: #fff;
-        color: #002d6d;
-        padding: 6px;
-        font-weight: 600;
     }
 }
